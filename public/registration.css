@@ -1,0 +1,48 @@
+.form-registration
+{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-family: 'Courier New';
+    font-weight: bold;
+    
+}
+
+.bg-image
+{
+    background-position: center;
+    border: 1px solid;
+    top: 100%
+  
+}
+
+h1
+{
+    text-align: center;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeIn; 
+    animation-duration: 2s; 
+    color: rgb(174, 42, 42);
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+img
+{
+    background-size: auto;
+    padding-left:200px;
+    padding-top: 10px;
+    opacity: 0.3;
+    
+}
+
+body
+{
+    background-color: rgb(32, 32, 32);
+}

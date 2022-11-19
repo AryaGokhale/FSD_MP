@@ -1,0 +1,25 @@
+
+.col-sm-6 {
+  position: relative;
+  min-height: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+
+.row {
+  position: relative;
+  min-height: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.card:hover {
+  background-color:#81b29a;
+}
+
+body{
+  background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}

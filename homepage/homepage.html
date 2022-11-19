@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel = "stylesheet" type = "text/css" href = "homepage.css">
+  <title>HOMEPAGE</title>
+</head>
+<body>
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">FSD</h5>
+          <p class="card-text">Select to view FSD workspace</p>
+          <form method="post"  id="fsdform" action="/api/fsd" >
+            <button id= "fsdbutton" class="btn btn-primary">FSD Workspace</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body"> 
+          <h5 class="card-title">AIES</h5>
+          <p class="card-text">Select to view AIES workspace</p>
+          <form method="post"  id="aiesform" action="/api/aies" >
+            <button id= "aiesbutton" class="btn btn-primary">AIES Workspace</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">ICS</h5>
+          <p class="card-text">Select to view ICS workspace</p>
+          <form method="post"  id="icsform" action="/api/ics" >
+            <button id= "icsbutton" class="btn btn-primary">ICS Workspace</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">DBMS</h5>
+          <p class="card-text">Select to view DBMS workspace</p>
+          <form method="post"  id="dbmsform" action="/api/dbms" >
+            <button id= "dbmsbutton" class="btn btn-primary">DBMS Workspace</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</body>
+</html>
